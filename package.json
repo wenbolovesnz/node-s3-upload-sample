@@ -1,0 +1,12 @@
+{
+  "name": "node-s3-upload-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wenbolovesnz/node-s3-upload-sample.git",
+  "author": "wenbo <wenbolovesnz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.636.0",
+    "dotenv": "^8.2.0"
+  }
+}
