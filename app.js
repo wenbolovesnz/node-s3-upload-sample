@@ -2,9 +2,7 @@ const AWS = require("aws-sdk");
 const fs = require("fs");
 const dotenv = require("dotenv");
 
-dotenv.config();
-
-console.log(process.env.secretAccessKey);
+dotenv.config(); // this will load values in .env file to process.env
 
 const s3 = new AWS.S3({
   accessKeyId: process.env.AccessKeyId,
